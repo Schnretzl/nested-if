@@ -11,3 +11,11 @@ if attendees > 300:
     print("projector")
 if attendees > 500:
     print("refreshments")
+    
+    
+# Task 3: Catering Choices
+vegetarian = input("Do you want vegetarian food? (yes/no): ")
+if vegetarian == "yes":
+    print("Veggie Delight Caterers")
+else:
+    print("Gourmet Meals Caterers")
